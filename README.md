@@ -50,3 +50,31 @@ public class class_name{
     }
 }
 ```
+
+## Objects
+
+An object in Java is a basic unit of Object-Oriented Programming and represents real-life entities. Objects are the instances of a class that are created to use the attributes and methods of a class.  A typical Java program creates many objects, which as you know, interact by invoking methods.
+
+### Components of Java Objects
+
+- **State** -> Used for representing by *attributes* of it and also for reflecting its *properties*.
+- **Behaviour** -> Represented by the *Methods* and its reflects the *response* of it with other object.
+- **Identity** -> Used for giving a *unique name* to it and *enables* to interact with another Object.
+
+### Syntax for Declaring an Object
+
+```java
+class first{
+    int age;
+    public void display(){
+        System.out.println("Displayed some Information");
+    }
+}
+
+class Sample{
+    public static void main(String[] args){
+        first obj_name = new first();                       // Object Created
+        obj_name.display();
+    }
+}
+```
